@@ -1,0 +1,96 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&family=Source+Sans+Pro:wght@200;300&display=swap');
+
+:root {
+    --title: 'Passion One', Arial, Verdana;
+    --text: 'Source Sans Pro', Verdana, sans-serif;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: var(--text);
+    text-rendering: optimizeLegibility;
+}
+
+html, body {
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    height: 200px;
+    min-height: 150px;
+    color: white;
+    min-width: 150px;
+    margin: auto;
+}
+
+header h1 {
+    font-family: var(--title);
+    font-size: 5em;
+    padding-top: 50px;
+    font-variant: small-caps;
+    min-width: 320px;
+    text-align: center;
+}
+
+header p {
+    font-size: 1.3em;
+    text-align: center;
+    font-weight: bold;
+}
+
+header a, footer a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
+}
+
+section {
+    line-height: 40px;
+    font-size: 1.3em;
+    font-weight: bold;
+    padding: 50px 100px;
+    min-width: 320px;
+    margin: auto;
+}
+
+section.container02, section.container04 {
+    background-color: darkgray;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.473);
+}
+
+section#img01 {
+    background-image: url('../image/margarida-gd.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section > p.conteudo02, section > p.conteudo04 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.475);
+    display: inline-block;
+    text-shadow: 1px 1px 0px black;
+}
+
+section#img02 {
+    background-image: url('../image/livros.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+}
+
+footer {
+    background-color: black;
+    padding: 20px;
+    font-size: 1.2em;
+    color: white;
+    text-align: center;
+}
