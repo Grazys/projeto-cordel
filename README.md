@@ -1,4 +1,4 @@
-## Projeto realizado pelo Curso em Video.
+## Projeto em andamento pelo Curso em Video.
 ### Finalizado em 22/07/2022
 #
 
